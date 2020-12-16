@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Huyen N. Nguyen</title>
+<title>Huyen N. Nguyen | a post with code</title>
 <meta name="description" content="Visualization Researcher, Computer Science PhD student at Texas Tech
 ">
 
@@ -31,7 +31,7 @@
 <link rel="shortcut icon" href="/al-folio/assets/img/favicon.png">
 <link rel="stylesheet" href="/al-folio/assets/css/main.css">
 
-<link rel="canonical" href="/al-folio/bio/">
+<link rel="canonical" href="/al-folio/blog/2015/code/">
 
 <!-- Theming-->
 
@@ -80,7 +80,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/al-folio/bio/">
               bio
               
@@ -89,7 +89,7 @@
           
           
           <!-- Blog -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/al-folio/blog/">
               blog
               
@@ -157,67 +157,66 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"></h1>
-    <p class="post-description"></p>
+    <h1 class="post-title">a post with code</h1>
+    <p class="post-meta">July 15, 2015</p>
   </header>
 
-  <article>
-    <div class="post">
+  <article class="post-content">
+    <p>This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
+It supports more than 100 languages.
+This example is in C++.
+All you have to do is wrap your code in a liquid tag:</p>
 
-    <header class="post-header">
-        <h1 class="post-title">bio</h1>
-        <p class="post-description">My current role and background</p>
-    </header>
+<p>{% highlight c++ linenos %}  <br /> code code code <br /> {% endhighlight %}</p>
 
-    <article>
-        I am currently a PhD student in Computer Science, <a href="https://www.depts.ttu.edu/coe/">Edward E. Whitacre
-        Jr.
-        College of Engineering</a> at <a href="https://www.ttu.edu/">Texas
-        Tech University</a>. I am a member of the <a href="https://idatavisualizationlab.github.io/">interactive Data
-        Visualization Lab (iDVL)</a>, where I work with Dr.
-        Tommy Dang.<br><br>
-        I do research in interactive data visualization (vis), visual analytics and human-computer interaction. I
-        develop web-based interactive vis using D3.js, supporting the understanding and insight discovery of
-        quantitative and qualitative data. I'm learning to build a template for event detection mechanisms in
-        visualizing time-series data.
+<p>The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers.
+Produces something like this:</p>
 
-        <h3 class="mt-5 mb-3">background</h3>
-        <div>
-            <div>
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="code"><pre><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
 
-                <p>Before pursuing the PhD program at Texas Tech, I earned a Bachelor's Degree in Information Systems
-                    at <a href="https://en.hust.edu.vn/">Hanoi University of
-                        Science and Technology</a> (Đại học Bách Khoa Hà Nội), Vietnam, in 2018. I worked with Dr. Oanh
-                    Nguyen in the Knowledge and Data Engineering Lab (now known as Data Science Lab) on problems in
-                    computer vision such as object detection and object proposal generation.</p>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
+    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
 
-                <p>I got interested in image processing after attending Dr. Nguyen's Multimedia Database Systems class
-                    in 2017 and started working with her since. The first topic that got me hooked was keypoint
-                    extraction using SIFT, implemented with <a href="https://opencv.org/">OpenCV library</a>. We then
-                    reviewed superpixelation and selective search methods for object segmentation proposals, inspired by
-                    <a href="http://www.ee.oulu.fi/~jkannala/publications/cvpr2014a.pdf">Rantalankila et al.</a>'s paper
-                    on generating proposals using global and local search.
+    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
 
-                    Towards my graduation, we moved on with deep learning techniques using convolutional neural networks
-                    for multi-label image classification. I completed my final thesis on training an object detection
-                    model with transfer learning using MobileNetv2 with TensorFlow on a general collection of images.
-                </p>
-                <p>
-                    I spent the summer of 2016 working as a Big Data Engineer Intern at VC Corp, Hanoi. I worked with
-                    Apache Hadoop in handling distributed storage for big data using HDFS and processing data using
-                    Map-Reduce programming model. I participated in the anomaly detection project using K-means
-                    clustering to detect outliers in the system activities log data.
-                </p>
-            </div>
-        </div>
-    </article>
+    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
 
-</div>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
 
   </article>
+
+  
 
 </div>
 

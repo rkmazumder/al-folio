@@ -6,23 +6,26 @@
             {% for project in sorted_projects %}
             <div class="grid-item">
                 {% if project.redirect %}
-                <a href="{{ project.redirect }}" target="_blank">
+                <span href="{{ project.redirect }}" target="_blank">
                     {% else %}
-                    <a href="{{ project.url | relative_url }}">
+                    <span href="{{ project.url | relative_url }}">
                         {% endif %}
                         <div class="card hoverable">
                             {% if project.img %}
-                            <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+                            <img class="img-fluid rounded z-depth-1 p-2 project-img"
+                                 src="{{ project.img | relative_url }}"
+                                 alt="project thumbnail">
                             {% endif %}
                             <div class="card-body">
-                                <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+                                <h3 class="card-title">{{ project.title }}</h3>
                                 <p class="card-text">{{ project.description }}</p>
+                                <p>{{ project.content }}</p>
                                 <div class="row ml-1 mr-1 p-0">
                                     {% if project.github %}
                                     <div class="github-icon">
                                         <div class="icon" data-toggle="tooltip" title="Code Repository">
-                                            <a href="{{ project.github }}" target="_blank"><i
-                                                    class="fab fa-github gh-icon"></i></a>
+                                            <span href="{{ project.github }}" target="_blank"><i
+                                                    class="fab fa-github gh-icon"></i></span>
                                         </div>
                                         {% if project.github_stars %}
                                         <span class="stars" data-toggle="tooltip" title="GitHub Stars">
@@ -35,7 +38,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    </span>
             </div>
             {% endfor %}
         </div>

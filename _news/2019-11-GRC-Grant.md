@@ -8,4 +8,5 @@ title: Visionary Grant at Gordon Research Conference ✨
 Our project entitled "Visualizing Qualitative Data for Science and Education" received the Visionary Grant Award, 
 supported by a generous 
 grant from **NASA** for interdisciplinary research.
-[<i class="fas fa-external-link-alt"></i>](https://idatavisualizationlab.github.io/20191024-GRCGrant.html)
+<a href="https://idatavisualizationlab.github.io/20191024-GRCGrant.html" target="_blank"><i class="fas 
+fa-external-link-alt"></i></a>

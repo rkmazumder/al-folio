@@ -31,5 +31,5 @@ research in interactive data visualization and visual analytics. I'm a member of
     in the Knowledge and Data Engineering Lab on object detection and object proposal generation.
   
 
-Besides my professional activities, I play the ukulele, love walking and hiking in beautiful places. I trekked Mount 
-Fansipan, Vietnam's highest mountain (3,143 m / 10,312 ft) ⛰️
+Besides my professional activities, I play the ukulele and tetris, love walking and hiking in beautiful places. I 
+trekked Mount Fansipan, Vietnam's highest mountain (3,143 m / 10,312 ft) ⛰️ in 2018.

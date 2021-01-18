@@ -2,7 +2,7 @@
     <h2>projects</h2>
     <div class="project-about">
         <div class="projects grid">
-            {% assign sorted_projects = site.projects | sort: "importance" %}
+            {% assign sorted_projects = site.projects | sort: "importance" | where:"selected","true" %}
             {% for project in sorted_projects %}
             <div class="grid-item">
                 {% if project.redirect %}

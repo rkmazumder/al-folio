@@ -23,7 +23,7 @@ layout: default
 
     <article>
         {% if page.profile %}
-        <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right pr-4 pl-4{% endif %}">
+        <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right pr-4 pl-4 pb-5{% endif %}">
             {% if page.profile.image %}
             <img class="img-fluid z-depth-1 rounded"
                  src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
@@ -41,7 +41,7 @@ layout: default
         </div>
 
         <div class="row mt-4">
-            <div class="col-9">
+            <div class="col-sm-9">
                 {% if page.projects %}
                     {% include projects.html %}
                 {% endif %}
@@ -50,7 +50,7 @@ layout: default
                     {% include selected_papers.html %}
                 {% endif %}
             </div>
-            <div class="col-3 news-col">
+            <div class="col-sm-3 news-col">
                 {% if page.news %}
                     {% include news.html %}
                 {% endif %}

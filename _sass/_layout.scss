@@ -6,6 +6,7 @@
    padding-bottom: 70px;
    color: var(--global-text-color);
    background-color: var(--global-bg-color);
+   font-family: "Source Sans Pro", "Helvetica";
  }
 
  body.fixed-top-nav {
@@ -17,6 +18,14 @@
    // Remove padding below footer.
    padding-bottom: 0;
  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 1.06rem;
+  }
 
 .container {
   max-width: $max-content-width;

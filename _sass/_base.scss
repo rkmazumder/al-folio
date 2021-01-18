@@ -57,7 +57,10 @@ a, table.table a {
 p.contact{
   margin-top: -0.3rem;
   a{
-    padding-left: 1rem;
+    margin-left: 1rem;
+    color: inherit;
+    border-bottom: 1px dashed;
+    text-decoration: none;
   }
 }
 

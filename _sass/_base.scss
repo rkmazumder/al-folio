@@ -63,7 +63,7 @@ p.contact{
 
 @media (min-width: 576px) {
   .profile {
-    width: 25%;
+    width: 26%;
     .address {
       p { display: block; }
     }
@@ -163,6 +163,21 @@ p.contact{
 
 // News
 
+.news-col{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.news-date{
+  color: #505963;
+  font-size: 0.9rem;
+}
+
+.news-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
@@ -170,6 +185,12 @@ p.contact{
 
 .news table th {
   color: var(--global-text-color);
+}
+
+// Projects at About
+
+.project-about {
+  padding-top: 2rem;
 }
 
 // Social (bottom)

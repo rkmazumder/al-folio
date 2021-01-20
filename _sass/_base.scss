@@ -66,7 +66,7 @@ p.contact{
 
 @media (min-width: 576px) {
   .profile {
-    width: 25%;
+    width: 100%;
     .address {
       p { display: block; }
     }
@@ -313,7 +313,7 @@ footer.sticky-bottom {
 
 .projects {
   .grid-item {
-    width: 230px;
+    //width: 250px;
     margin-bottom: 10px;
     a {
       color: black;
@@ -325,7 +325,10 @@ footer.sticky-bottom {
   }
   .card img {
     width: 100%;
-    height: 133px;
+  }
+  .project-col{
+    padding-right: 0;
+    padding-left: 20px;
   }
 }
 

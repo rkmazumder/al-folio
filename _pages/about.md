@@ -26,10 +26,12 @@ research in interactive data visualization and visual analytics. I'm a member of
   visualization with [D3.js]((https://d3js.org/)) and I study to construct a template
   for event  detection mechanisms in time-series data.
   
-  Before pursuing the PhD program, I received a Bachelor's Degree in Information Systems at [Hanoi University of Science
+<!---Before pursuing the PhD program, I received a Bachelor's Degree in Information Systems at [Hanoi University of 
+Science
    and Technology](https://en.hust.edu.vn/) in 2018. I worked with Dr. [Oanh Nguyen](https://soict.hust.edu.vn/can-bo/ts-nguyen-thi-oanh.html)
-    in the Knowledge and Data Engineering Lab on object detection and object proposal generation.
+    in the Knowledge and Data Engineering Lab on object detection and object proposal generation.)
+    --->
   
 
-Besides my professional activities, I play the ukulele and tetris, love walking and hiking in beautiful places. I 
+Besides my professional activities, I play the ukulele, love walking and hiking in beautiful places. I 
 trekked Mount Fansipan, Vietnam's highest mountain (3,143 m / 10,312 ft) ⛰️ in 2018.

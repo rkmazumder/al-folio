@@ -12,12 +12,12 @@ selected: true
     Correction and
 Analysis on object detection result.</p>
 <p class="card-text">
-    <span class="pr-3"><a href="https://youtu.be/sOdgBeeapu8">Video</a></span>
-    <span class="pr-3"><a href="https://youtu.be/eS1D1JnX7eY">Presentation</a></span>
     <span class="pr-3"><a
         href="https://github.com/huyen-nguyen/VAST2020mc2">GitHub</a></span>
-        <span class="pr-3"><a
-            href="https://huyen-nguyen.github.io/VAST2020mc2/">Demo</a></span>
+        <span class="pr-3">
+        <a href="https://huyen-nguyen.github.io/VAST2020mc2/">Demo</a></span>
+            <span class="pr-3"><a href="https://youtu.be/sOdgBeeapu8">Video</a></span>
+            <span class="pr-3"><a href="https://youtu.be/eS1D1JnX7eY">Presentation</a></span>
             <span class="pr-3"><a
                 href="https://huyen-nguyen.github.io/VAST2020mc2/TTU-Nguyen-MC2/">Report
             </a>
